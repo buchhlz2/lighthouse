@@ -1,0 +1,9 @@
+[package]
+name = "beacon_chain_light_client"
+authors = ["Dan Buchholz <dbuchholz30@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+types = { path = "../consensus/types" }
+light_client = { path = "./light_client"}

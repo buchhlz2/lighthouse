@@ -1,0 +1,8 @@
+[package]
+name = "light_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+types = { path = "../../consensus/types" }
+ethereum-types = "0.12.1"
